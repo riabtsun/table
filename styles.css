@@ -1,0 +1,35 @@
+.info__wrapper{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+table,
+td,
+th {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+td{
+  width: 200px;
+  text-align: center;
+}
+input{
+  margin-bottom: 30px;
+  align-self: flex-start;
+}
+.additional_info{
+  margin-top: 50px;
+  border: 1px solid #000;
+  text-align: center;
+  padding: 50px;
+}
+.additional_info div{
+  display: flex;
+  flex-direction: column;
+}
+.additional_info span{
+  padding-bottom: 20px;
+}
